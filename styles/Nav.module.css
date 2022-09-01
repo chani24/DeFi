@@ -1,0 +1,32 @@
+.container, .footer{
+background-color: rgba(14, 14, 14, 1);
+}
+
+.container{
+    color: #fff;
+    padding: 0rem 1rem;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgba(191, 191, 191, 1);
+    padding: 0.7rem 5rem;
+    font-size: 12px;
+    background-color: #050505;
+    border-top: 1px solid rgba(32, 32, 32, 1);
+}
+
+@media screen and (max-width: 425px) {
+    .container{
+        color: #fff;
+        padding: 0rem 2rem;
+    }
+
+    .footer{
+        padding: 0.7rem 2rem;
+        justify-content: space-between;
+    }
+  }
