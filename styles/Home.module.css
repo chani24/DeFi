@@ -33,12 +33,13 @@ height: 300px;
 
 .markets_card{
 padding: 1rem 1rem 0.5rem 1rem;
+margin-top: 1rem;
 }
 
 .card_item{
 border-top: 1px solid rgba(32, 32, 32, 1);
 display: flex;
-padding: 0.53rem 0;
+padding: 0.8rem 0;
 }
 
 .modal_background{
@@ -109,12 +110,12 @@ justify-content: space-between;
 }
 
 .prices_container > div{
-  padding: 1.2rem 1rem;
+  padding: 1.6rem 1rem;
   background: #0E0E0E;
 border: 1px solid #3B3D41;
 border-radius: 10px;
 width: 212px;
-margin-bottom: 1rem;
+margin-bottom: 1.2rem;
 display: flex;
 }
 

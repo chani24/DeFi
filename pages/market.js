@@ -217,7 +217,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className="flex justify-between">
-          <div className="flex sm-hide items-center">
+          <div className="flex sm-hide items-center mt-2">
             <Image
               src="/images/avatar.png"
               alt={"user avatar"}

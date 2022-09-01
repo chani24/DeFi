@@ -80,7 +80,7 @@ export default function Home() {
       <TopNav activeLink="dashboard" isConnect={false} />
 
       <main className={styles.main}>
-        <div className="flex justify-between">
+        <div className="flex justify-between mt-2">
           <div className="flex sm-hide items-center">
             <Image
               src="/images/avatar.png"
