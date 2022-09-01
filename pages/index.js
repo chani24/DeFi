@@ -103,7 +103,7 @@ export default function Home() {
           <div className={styles.modal_accounts}>
             {accounts.map((account, index) => {
               return (
-                <div onClick={connectAccount}>
+                <div onClick={connectAccount} key={index}>
                   <Image
                     src={"/images/logos/" + account.logo + ".png"}
                     alt={account.logo + " logo"}

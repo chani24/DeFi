@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Nav.module.css";
+import Link from "next/link";
 
 export default function TopNav({ activeLink, isConnect, buttonClick }) {
   return (
@@ -16,9 +17,9 @@ export default function TopNav({ activeLink, isConnect, buttonClick }) {
                 : "py-2  flex items-center mr-3"
             }
           >
-            <a className="text-xs" href="/dashboard">
+            <Link className="text-xs" href="/dashboard">
               Dashboard
-            </a>
+            </Link>
           </div>
           <div
             className={
@@ -27,9 +28,9 @@ export default function TopNav({ activeLink, isConnect, buttonClick }) {
                 : "py-2  flex items-center mr-3"
             }
           >
-            <a className="text-xs" href="/market">
+            <Link className="text-xs" href="/market">
               Market
-            </a>
+            </Link>
           </div>
           <div
             className={
@@ -38,9 +39,9 @@ export default function TopNav({ activeLink, isConnect, buttonClick }) {
                 : "py-2  flex items-center mr-3"
             }
           >
-            <a className="text-xs" href="/prices">
+            <Link className="text-xs" href="/prices">
               Prices
-            </a>
+            </Link>
           </div>
         </div>
         <div className="py-2 flex items-center justify-end grow">

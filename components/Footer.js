@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Nav.module.css";
 
 export default function Footer() {
@@ -8,19 +9,19 @@ export default function Footer() {
       <div className="flex justify-between grow">
         <div className="flex">
           <div className=" flex items-center mr-5">
-            <a href="/dashboard">Dashboard</a>
+            <Link href="/dashboard">Dashboard</Link>
           </div>
           <div className=" flex items-center mr-5">
-            <a href="/market">Market</a>
+            <Link href="/market">Market</Link>
           </div>
           <div className=" flex items-center mr-5">
-            <a href="/prices">Prices</a>
+            <Link href="/prices">Prices</Link>
           </div>
           <div className=" flex items-center mr-5">
-            <a>Support</a>
+            <Link href="">Support</Link>
           </div>
           <div className=" flex items-center">
-            <a>Terms</a>
+            <Link href="">Terms</Link>
           </div>
         </div>
         <div className="flex items-center sm-hide">
